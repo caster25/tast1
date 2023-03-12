@@ -39,7 +39,7 @@ namespace tast2
             try
             {
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("Add Successfury! \n ", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Add Successfury! \n ", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
             catch (MySqlException ex)
@@ -62,7 +62,7 @@ namespace tast2
             try
             {
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("Updated Successfury! \n ", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Updated Successfury! \n ", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
             catch (MySqlException ex)
@@ -82,7 +82,7 @@ namespace tast2
             try
             {
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("Deleted Successfury! \n ", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Deleted Successfury! \n ", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
             catch (MySqlException ex)
